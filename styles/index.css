@@ -1,0 +1,42 @@
+:root{
+    --color:  #352e41
+}
+
+.header{
+    min-height: 100vh;
+    background-image: url(../imagens/prediosBackGround.jpg); 
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.titleHeader{
+    font-size: 15px;
+    color: var(--color);
+}
+a{
+    color: var(--color);
+}
+.sectionHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+.text-apresentation{
+    margin: 3em 0 1em 0;
+    width: 65%;
+}
+
+p{
+    text-align: center;
+}
+
+.servicos{
+    min-height: 80vh;
+    background-image: url(../imagens/prediosBackGround.jpg); 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
